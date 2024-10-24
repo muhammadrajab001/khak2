@@ -121,7 +121,11 @@ header {
     height: 38px;
 }
 
-
+.anime__ball111{
+    position: relative;
+    top: 87px;
+    right: 492px;
+}
 
 .ul__anime__list1{   display: flex;
 gap: 100px;

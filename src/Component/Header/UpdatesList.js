@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import img4 from '../img/UserinfoKandidat__icon/Union.svg'; // Замените на путь к вашему изображению
+import img4 from '../img/UserinfoKandidat__icon/Union.svg'; 
 
 
 const UpdatesList = () => {
   const [showMore, setShowMore] = useState(false);
 
   const handleShowMoreClick = () => {
-    setShowMore(!showMore); // Переключаем состояние при нажатии на кнопку
+    setShowMore(!showMore); 
   };
 
   return (

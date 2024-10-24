@@ -27,7 +27,7 @@ import imgmen from '../img/icons__kartojki/image (1).svg'
 
 import imgiconstotal from '../img/icons__kartojki/Vector.svg'
 import imgiconsproperty from '../img/icons__kartojki/icons,Property 1=up, state=Default.svg'
-// Компонент для иконок в сайдбаре
+
 const SidebarIcon = ({ icon, label, onClick }) => (
   <li className='side__window__icon' onClick={onClick}>
     <img className='sade__window__svg' src={icon} alt={label} />
@@ -46,7 +46,7 @@ const Header = () => {
     const file = event.target.files[0];
     if (file) {
       console.log('Выбран файл:', file.name);
-      // Здесь можно добавить дополнительную логику для загрузки файла
+    
     }
   };
 
@@ -61,17 +61,19 @@ const Header = () => {
           </ul>
           <ul className='img__ul__svg'>
             <li>
-              <button className='img__header__svg__button' onClick={() => navigate('/userinfo')}>
+        
                 <img className='img__header__svg' src={imgheader4} alt='User Info' />
-              </button>
+       
             </li>
             <li>
-              <button className='img__header__svg__button' onClick={() => navigate('/kandidat')}>
+              <button className='img__header__svg__button' >
                 <img className='img__header__svg' src={imgheader3} alt='Userinfo Kandidat' />
               </button>
             </li>
             <li><img className='img__header__svg' src={imgheader1} alt='Icon 3' /></li>
+            <button className='img__header__svg__button' onClick={() => navigate('/userinfo')}>
             <li><img className='img__header__svg' src={imgheader2} alt='Icon 4' /></li>
+            </button>
           </ul>
         </div>
         
@@ -187,7 +189,7 @@ const Header = () => {
             <ul className='side__window__ul'>
               <SidebarIcon icon={sadewindow1} label='Главная' onClick={() => handleSidebarIconClick('/')} />
               <SidebarIcon icon={sadewindow2} label='Вакансии' onClick={() => handleSidebarIconClick('/vacancies')} />
-              <SidebarIcon icon={sadewindow4} label='Кандидаты' onClick={() => handleSidebarIconClick('/kandidat')} />
+              <SidebarIcon icon={sadewindow4} label='Кандидаты' onClick={() => handleSidebarIconClick('/candidat')} />
               <SidebarIcon icon={sadewindow5} label='Управление' onClick={() => handleSidebarIconClick('/upravlenie')} />
               <SidebarIcon icon={sadewindow3} label='Статистика' onClick={() => handleSidebarIconClick('/statistika')} />
               <SidebarIcon icon={sadewindow6} label='Настройки' onClick={() => handleSidebarIconClick('/settings')} />

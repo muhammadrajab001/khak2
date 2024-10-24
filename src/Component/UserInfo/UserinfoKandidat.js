@@ -30,7 +30,12 @@ const UserinfoKandidat = () => {
         e.preventDefault();
         setActiveBall(true);
     };
-
+    const handleSubmit1 = (e) => {
+        e.preventDefault();
+        setActiveBall(true);
+        navigate('/usereducation');
+    }
+        
     const handleFileChange = (e) => {
         const uploadedFile = e.target.files[0];
         console.log('Файл загружен:', uploadedFile);
@@ -85,7 +90,7 @@ const UserinfoKandidat = () => {
                 </div>
                 <div className='header__form__users__2'>
                     <h1 className='form__text'>Основная информация</h1>
-                    <form className='form__start__input__2' onSubmit={handleSubmit}>
+                    <form className='form__start__input__2' onSubmit={handleSubmit1}>
                         <input className='input__form__text__2' type='text' placeholder='Город' required />
                         <input className='input__form__city__2' type='date' id='icon' placeholder='Дата рождения' required />
                         <button className='btn__form' type='submit'>Дальше</button>
@@ -114,14 +119,15 @@ const UserinfoKandidat = () => {
                             </li>
                         </div>
 
-                        <div className='anime__ball1'>
-                            <ul className='ul__anime__list1'>
-                                <li className={activeBall ? 'anime__li__ball2 active' : 'anime__li__ball2'}>
-                                    <p className='anime__li__p'></p>
-                                </li>
-                                <li className='anime__li__ball3'></li>
-                            </ul>
-                        </div>
+                       <div className='anime__ball111'>
+                        <ul className='ul__anime__list'>
+                            <li className='anime__li__ball'><p className='anime__li__p'></p></li>
+                            <li className={activeBall ? 'anime__li__ball2 active' : 'anime__li__ball2'}>
+                                <p className='anime__li__p'></p>
+                            </li>
+                            <li className='anime__li__ball3'></li>
+                        </ul>
+                    </div>
                     </div>
 
                     {/* Первое модальное окно для загрузки документов */}

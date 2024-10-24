@@ -5,9 +5,9 @@ const TotalVacancy = () => {
   const [responseCount, setResponseCount] = useState(0);
 
   useEffect(() => {
-    // Генерация случайных чисел при загрузке компонента
-    const randomVacancyCount = Math.floor(Math.random() * 100) + 1; // Случайное число от 1 до 100
-    const randomResponseCount = Math.floor(Math.random() * 500) + 1; // Случайное число от 1 до 500
+  
+    const randomVacancyCount = Math.floor(Math.random() * 100) + 1; 
+    const randomResponseCount = Math.floor(Math.random() * 500) + 1; 
 
     setVacancyCount(randomVacancyCount);
     setResponseCount(randomResponseCount);
