@@ -13,6 +13,8 @@ import sadewindow4 from '../img/sade window/icons,Property 1=kandidates, state=D
 import sadewindow5 from '../img/sade window/icons,Property 1=control, state=Default.svg';
 import sadewindow6 from '../img/sade window/icons,Property 1=settings, state=Default.svg';
 
+
+
 import img3 from '../img/UserinfoKandidat__icon/Union.svg';
 import imgvector from '../img/UserinfoKandidat__icon/gradient/Vector.svg';
 import imgradient from '../img/UserinfoKandidat__icon/gradient/fill.svg';
@@ -70,7 +72,7 @@ const Header = () => {
                 <img className='img__header__svg' src={imgheader3} alt='Userinfo Kandidat' />
               </button>
             </li>
-            <li><img className='img__header__svg' src={imgheader1} alt='Icon 3' /></li>
+          <button className='button__LikedImages' onClick={() => navigate('/')} >  <li><img className='img__header__svg' src={imgheader1} alt='Icon 3' /></li></button>
             <button className='img__header__svg__button' onClick={() => navigate('/userinfo')}>
             <li><img className='img__header__svg' src={imgheader2} alt='Icon 4' /></li>
             </button>
@@ -187,12 +189,13 @@ const Header = () => {
         <div className='side__window'>
           <div className='side__window__start'>
             <ul className='side__window__ul'>
-              <SidebarIcon icon={sadewindow1} label='Главная' onClick={() => handleSidebarIconClick('/')} />
-              <SidebarIcon icon={sadewindow2} label='Вакансии' onClick={() => handleSidebarIconClick('/vacancies')} />
-              <SidebarIcon icon={sadewindow4} label='Кандидаты' onClick={() => handleSidebarIconClick('/candidat')} />
-              <SidebarIcon icon={sadewindow5} label='Управление' onClick={() => handleSidebarIconClick('/upravlenie')} />
-              <SidebarIcon icon={sadewindow3} label='Статистика' onClick={() => handleSidebarIconClick('/statistika')} />
-              <SidebarIcon icon={sadewindow6} label='Настройки' onClick={() => handleSidebarIconClick('/settings')} />
+            <SidebarIcon icon={sadewindow1} label='Главная' onClick={() => handleSidebarIconClick('/')} />
+<SidebarIcon icon={sadewindow2} label='Вакансии' onClick={() => handleSidebarIconClick('/Vacancy')} /> 
+<SidebarIcon icon={sadewindow4} label='Кандидаты' onClick={() => handleSidebarIconClick('/Candidat')} />
+<SidebarIcon icon={sadewindow5} label='Управление' onClick={() => handleSidebarIconClick('/upravlenie')} />
+<SidebarIcon icon={sadewindow3} label='Статистика' onClick={() => handleSidebarIconClick('/MyLineChart')} />
+<SidebarIcon icon={sadewindow6} label='Настройки' onClick={() => handleSidebarIconClick('/HRSettings')} />
+
             </ul>
           
     

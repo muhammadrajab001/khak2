@@ -322,7 +322,7 @@ border: 1px solid rgb(255, 255, 255);
     position: absolute;
     z-index: 1000;
     right: 33px;
-    bottom: 50px;
+    bottom: 107px;
 }
 
 .statistics__window__ul__2{
@@ -407,7 +407,10 @@ border: 1px solid rgb(255, 255, 255);
     color: white;
 }
 
-
+.button__LikedImages{
+    border: none;
+    background: none;
+}
 
 .img1__card__candidate{
     margin-left: 110px;

@@ -1,0 +1,51 @@
+.settings__container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: gainsboro;
+}
+
+.settings__section {
+  margin-bottom: 20px;
+}
+
+.settings__section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.settings__section input,
+.settings__section textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.settings__section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.settings__section input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+}
+.side__window__start___HR{
+  width: 154px;
+    height: 506px;
+    border-radius: 0px 12px 12px 0px;
+    background: rgb(42, 44, 45);
+    display: grid;
+    gap: 15px;
+    position: fixed;
+    top: 100px;
+    /* position: relative; */
+    margin-left: -300px;
+}

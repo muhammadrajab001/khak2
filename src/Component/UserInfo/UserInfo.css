@@ -8,6 +8,7 @@ header {
     width: 1200px;
     height: 720px;
     background: rgb(21, 22, 23);
+    margin: 0 auto;
 }
 
 .nav__header {
@@ -32,6 +33,7 @@ header {
 .header__list__ul {
     display: flex;
     gap: 50px;
+    margin-top: 40px;
 }
 
 .img__ul__svg {
@@ -39,6 +41,7 @@ header {
     gap: 36px;
     align-items: center;
     margin-left: 117px;
+    margin-top: 40px;
 }
 
 .img__header__svg {
@@ -111,6 +114,8 @@ header {
 
 .anime__li__ball2 {
     background: rgb(68, 69, 69);
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(171, 175, 255);
 }
 
 .anime__li__ball2.active {
@@ -120,7 +125,14 @@ header {
 
 .anime__li__ball3 {
     background: rgb(68, 69, 69);
+  
 }
+
+.anime__li__ball3.active {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(171, 175, 255);
+}
+
 
 .ul__anime__list {
     display: flex;

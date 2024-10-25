@@ -1,0 +1,89 @@
+.vacancy__container {
+    padding: 20px;
+    background: rgb(21, 22, 23);
+}
+  
+  
+h3{
+    color: #fff;
+font-family: 'Inter' sans-serif; 
+    font-size: 20px;
+}
+  .header__vacancy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .card__vacancy {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+  .vacancy__cards{
+    margin-left: 380px;
+    margin-top: 20px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid rgb(68, 69, 69);
+    border-radius: 2px;
+    background: rgb(68, 69, 69);
+    border: none;
+  }
+  .title__vacancy {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .apply__button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .apply__button:hover {
+    background-color: #45a049;
+  }
+  
+  .no__vacancies {
+    text-align: center;
+    color: #999;
+  }
+  
+
+  .input__vacancy__5{
+    width: 514px;
+    height: 39px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px 20px;
+  }
+
+  .search__icon__form__5{
+    position: relative;
+    top: 3px;
+    left: 27px;
+    border: antiquewhite;
+    background: border-box;
+    /* height: 18px; */
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.5);
+}
+  .search__input__5{
+    display: flex;
+    justify-content: center;
+    padding: 26px;
+  }
+
+  .form__search__5{
+    position: relative;
+    align-items: center;
+  }
