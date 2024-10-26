@@ -13,7 +13,7 @@ const UserInfo = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setActiveBall(true);
-    navigate('/kandidat'); // Переход к UserinfoKandidat
+    navigate('/kandidat'); 
   };
 
   return (

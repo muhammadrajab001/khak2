@@ -8,6 +8,7 @@ import Candidat from './Component/Vakansiy/candidat';
 import Vacancy from './Component/Vakansiy/Vacancy';
 import HRSettings from './Component/system/HRSettings';
 import './App.css'
+import Uprav from './Component/upravlenie/uprav';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Route path="/Candidat" element={<Candidat/>} />
        <Route path='/Vacancy' element={<Vacancy/>}/>
        <Route path='/HRSettings' element={<HRSettings />} />
-
+       <Route path='/Uprav' element={<Uprav />} />
       </Routes>
     </Router>
   );

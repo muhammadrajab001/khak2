@@ -32,3 +32,199 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
   }
   
+
+
+  .game__upravlenie__start{
+    padding: 22px 185px;
+  }
+
+
+  .ul__select__1{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+  }
+
+
+  .select__game__uplarlenie{
+    width: 201px;
+    height: 42px;
+    /* background: rgb(42, 44, 45); */
+    background: none;
+    color: white;
+    border: none;
+
+  }
+
+  .p__game__uplravlenie{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+  }
+.icon__game__uplravlenie{
+ 
+    font-family: Inter;
+    /* font-size: 18px; */
+    position: relative;
+    bottom: 14px;
+    left: 98px;
+    color: rgb(255, 255, 255);
+    width: 18px;
+
+}
+  .button__game__uplravlenie{
+    border: none;
+    background: none;
+ 
+    position: relative;
+    left: 126px;
+    color: white;
+    width: 18px;
+    height: 18px;
+}
+  
+
+  
+
+  .game__button__uplravlenie{
+    border: none;
+    background: none;
+    position: relative;
+    left: 126px;
+    color: white;
+    width: 18px;
+    height: 18px;
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  .cart__Uplav{
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 51px;
+
+  }
+.cart__Uplav__start{
+  width: 245px;
+  height: 68px;
+  border-radius: 30px;
+  position: relative;
+
+  background: linear-gradient(180.00deg, rgb(89, 205, 255), rgba(63, 54, 153, 0) 100%);
+}
+  .cart__Uplav__start__1{
+    border: 1px solid rgb(42, 44, 45);
+    border-radius: 30px;
+    width: 245px;
+    height: 834px;
+    background: linear-gradient(180.00deg, rgb(106, 89, 255), rgba(63, 54, 153, 0) 100%);
+    width: 245px;
+    height: 68px;
+   
+  }
+.cart__p__sub{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  position: relative;
+ 
+  left: 13px;
+
+}
+.cart__i__sub{
+  position: relative;
+  bottom: 18px;
+  left: 14px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+}
+  .cart__Uplav__start{
+    background: linear-gradient(180.00deg, rgb(106, 89, 255), rgba(63, 54, 153, 0) 100%);
+    width: 245px;
+    height: 68px;
+    border-radius: 30px;
+position: relative;
+bottom: 12px;
+}
+  
+
+
+  .ul__uprav{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    background: rgb(42, 44, 45);
+    width: 205px;
+    height: 128.56px;
+    position: relative;
+    top: 3px;
+    left: 20px;
+
+  }
+
+
+  .ul__uprav__p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 9px;
+    position: relative;
+    right: 27px;
+    top: 9px;
+  }
+
+
+  .ul__uprav__img{
+    margin-left: 120px;
+    position: relative;
+    bottom: 14px;
+  }
+
+  .ul__uprav__button{
+    position: relative;
+    bottom: 39px;
+    left: 57px;
+    border-radius: 3px;
+    background: rgb(211, 211, 211);
+  }
+
+  .ul__uprav__img1{
+    position: relative;
+    right: 128px;
+    bottom: 36px;
+  }
+
+  .ul__uprav__img2{
+    position: relative;
+    right: 119px;
+    bottom: 24px;
+  }
+
+  .ul__uprav__p1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    position: relative;
+    bottom: 38px;
+    right: 28px;
+  }
+
+  .ul__uprav__p2{
+    position: relative;
+    bottom: 55px;
+    right: 27px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+  }
